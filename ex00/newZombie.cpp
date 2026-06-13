@@ -6,7 +6,7 @@
 /*   By: ldeplace <ldeplace@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 13:54:07 by ldeplace          #+#    #+#             */
-/*   Updated: 2026/06/13 13:56:16 by ldeplace         ###   ########.fr       */
+/*   Updated: 2026/06/13 14:09:34 by ldeplace         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,4 +16,3 @@ Zombie* newZombie(std::string name)
 {
     Zombie* zombieOnHeap = new Zombie(name);
     return zombieOnHeap;
-}
