@@ -1,4 +1,4 @@
-NAME        = newZombieombie
+NAME        = Zombie
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
