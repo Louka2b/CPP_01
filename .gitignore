@@ -5,3 +5,11 @@ Zombie_Horde
 Brain
 Unnecessary_violence
 Sed_is_for_losers
+test.txt
+test.replace
+*.txt
+*.replace
+*/test.txt
+*/test.replace
+*/.*txt
+*/*.replace
