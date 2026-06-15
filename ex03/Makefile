@@ -1,8 +1,8 @@
-NAME        = Brain
+NAME        = Unnecessary_violence
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
-SRCS        = main.cpp
+SRCS        = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 OBJS        = $(SRCS:.cpp=.o)
 
 all: $(NAME)
@@ -10,7 +10,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(OBJS) -o $(NAME)
 
-%.o: %.cpp
+%.o: %.cpp 
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
