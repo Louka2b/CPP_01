@@ -6,7 +6,7 @@
 /*   By: louka <louka@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/13 14:40:51 by ldeplace          #+#    #+#             */
-/*   Updated: 2026/06/13 15:15:28 by louka            ###   ########.fr       */
+/*   Updated: 2026/06/15 11:44:40 by louka            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,11 @@
 
 class Zombie {
     private:
+    
     std::string _name;
     
     public:
+    
     Zombie();
     Zombie(std::string name);
     ~Zombie();

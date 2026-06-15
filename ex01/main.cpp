@@ -5,7 +5,7 @@ int main(void)
     int N = 12;
     
     std::cout << "create an order of " << N << " zombies : " << std::endl;
-    Zombie* horde = zombieHorde(N, "Walker");
+    Zombie* horde = zombieHorde(N, "LeZombieTigre");
     
     for (int i = 0; i < N; i++)
     {
